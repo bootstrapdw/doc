@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Boon600i';
+	src: url('Boon-600i.eot');
+	src: url('Boon-600i.eot?#iefix') format('embedded-opentype'),
+		url('Boon-600i.woff') format('woff'),
+		url('Boon-600i.ttf') format('truetype'),
+		url('Boon-600i.svg') format('svg');
+}
