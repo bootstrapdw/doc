@@ -102,6 +102,15 @@ img[src$="barista.svg"] {
 	width: 80px;
 	margin-left: 100px;
 }
+#highlights {
+	text-align: left;
+}
+#highlights h2 {
+	color: #085F56;
+}
+
+
+
 
 
 
