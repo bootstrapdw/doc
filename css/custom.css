@@ -97,17 +97,30 @@ img[src$="icon.svg"] {
 	display: block;
 }
 img[src$="barista.svg"] {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 25px auto;
 	width: 80px;
-	margin-left: 100px;
+	display: block;
 }
 #highlights {
 	text-align: left;
 }
 #highlights h2 {
 	color: #085F56;
+	text-align: center;
 }
+footer {
+	padding: 1em;
+	background-color: #21221C;
+	background-image: -webkit-linear-gradient(270deg,rgba(33,34,28,1.00) 0%,rgba(63,63,63,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(33,34,28,1.00) 0%,rgba(63,63,63,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(33,34,28,1.00) 0%,rgba(63,63,63,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(33,34,28,1.00) 0%,rgba(63,63,63,1.00) 100%);
+	color: #FCF7F7;
+	font-size: 0.9em;
+	text-align: center;
+
+}
+
 
 
 
@@ -145,4 +158,21 @@ img[src$="barista.svg"] {
 	font-size: 3em;
 }
 
+}
+#feature {
+	background-color: #346F7E;
+	background-image: -webkit-linear-gradient(270deg,rgba(52,111,126,1.00) 0%,rgba(72,150,170,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(52,111,126,1.00) 0%,rgba(72,150,170,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(52,111,126,1.00) 0%,rgba(72,150,170,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(52,111,126,1.00) 0%,rgba(72,150,170,1.00) 100%);
+}
+#feature h2 {
+	color: #FFFFFF;
+	text-align: center;
+}
+#feature p {
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+#articles {
 }
