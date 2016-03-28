@@ -3,79 +3,85 @@
 
 
 .navbar-default {
-  background-color: #092623;
-  border-color: #5a5c5c;
+  background-color: #4896aa;
+  border-color: #346f7e;
 }
 .navbar-default .navbar-brand {
-  color: #6becdf;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #ffffff;
 }
 .navbar-default .navbar-text {
-  color: #6becdf;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #6becdf;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #092623;
+  background-color: #4896aa;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #6becdf;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
   color: #ffffff;
-  background-color: #5a5c5c;
+  background-color: #346f7e;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: #5a5c5c;
+  background-color: #346f7e;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
   color: #ffffff;
-  background-color: #5a5c5c;
+  background-color: #346f7e;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #5a5c5c;
+  background-color: #346f7e;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #5a5c5c;
+  background-color: #346f7e;
 }
 .navbar-default .navbar-toggle {
-  border-color: #5a5c5c;
+  border-color: #346f7e;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #5a5c5c;
+  background-color: #346f7e;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #6becdf;
+  background-color: #ecf0f1;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #6becdf;
+  border-color: #ecf0f1;
 }
 .navbar-default .navbar-link {
-  color: #6becdf;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-link:hover {
   color: #ffffff;
 }
+
 .navbar-brand {
+	background-image: url(../images/svg/coffee/coffeepot_barista.svg);
+	background-repeat: no-repeat;
+	padding-left: 46px;
+	background-size: 48px 51px;
+	background-position: 4% 0%;
 
 }
 
@@ -130,7 +136,7 @@ footer {
 
 @media (max-width:649px){
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #6becdf;
+    color: #ecf0f1;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -140,11 +146,14 @@ footer {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #5a5c5c;
+    background-color: #346f7e;
   }
+  
+  
 .navbar-toggle.collapsed {
 	color: rgba(255,249,249,1.00);
 }
+
 #hero h1 {
 	font-size: 1em;
 }
