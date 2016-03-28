@@ -102,7 +102,7 @@ img[src$="barista.svg"] {
 	display: block;
 }
 #highlights {
-	text-align: left;
+	text-align: center;
 }
 #highlights h2 {
 	color: #085F56;
